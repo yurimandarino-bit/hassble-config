@@ -14,7 +14,7 @@ devices:
         - "ATL0"
         - "ATS0"
         - "ATH0"
-        - "ATSP6"
+        - "ATSP0"
     sensors:
       - key: "actual_torque"
         unit: "%"
