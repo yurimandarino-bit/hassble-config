@@ -177,5 +177,5 @@ Devices:
     icon: "mdi:alert-circle"
     accuracy_decimals: 0
     pid: "01"
-    formula: "a - 128 if a >= 128 else a"
+    formula: "a - 128 * (a >= 128)"
     update_interval: "30s"
