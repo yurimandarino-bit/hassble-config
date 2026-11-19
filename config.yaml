@@ -1,4 +1,4 @@
-devices:
+Devices:
 - id: "obd_vehicle"
   name: "CLA 250"
   source: "obd"
@@ -170,4 +170,12 @@ devices:
     accuracy_decimals: 0
     pid: "31"
     formula: "a*256+b"
+    update_interval: "30s"
+  - key: "trouble_codes"
+    unit: "DTCs"
+    state_class: "measurement"
+    icon: "mdi:alert-circle"
+    accuracy_decimals: 0
+    pid: "01"
+    formula: "a - 128 if a >= 128 else a"
     update_interval: "30s"
