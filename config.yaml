@@ -178,4 +178,4 @@ Devices:
     accuracy_decimals: 0
     pid: "01"
     formula: "a - 128 * (a >= 128)"
-    update_interval: "30s"
+    update_interval: "31s"
