@@ -1,4 +1,4 @@
-Devices:
+devices:
 - id: "obd_vehicle"
   name: "CLA 250"
   source: "obd"
