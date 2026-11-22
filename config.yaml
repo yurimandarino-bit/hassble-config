@@ -171,3 +171,11 @@ Devices:
     pid: "31"
     formula: "a*256+b"
     update_interval: "30s"
+  - key: "trouble_codes"
+    unit: "DTCs"
+    state_class: "measurement"
+    icon: "mdi:alert-circle"
+    accuracy_decimals: 0
+    pid: "01"
+    formula: "a - 128 * (a >= 128)"
+    update_interval: "30s"
